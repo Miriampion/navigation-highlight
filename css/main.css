@@ -59,8 +59,12 @@ img {
   background-color: #cc1465;
 }
 
-section {
+main {
   padding:.75em;
+}
+
+p {
+  color: #2f2d13;
 }
 
 *, *::before, *::after {
