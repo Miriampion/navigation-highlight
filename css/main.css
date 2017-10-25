@@ -1,6 +1,6 @@
 html {
- box-sizing: border-box;
- font: normal 100%/1.5 Georgia,serif;
+  box-sizing: border-box;
+  font: normal 100%/1.5 Georgia, serif;
 
 }
 
@@ -9,7 +9,7 @@ html {
 }
 
 header {
- background-color: #ffe500;
+  background-color: #ffe500;
 }
 
 body {
@@ -18,14 +18,14 @@ body {
 
 h1 {
   margin: 0;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   text-align: center;
   color: #cc1465;
   font-size: 3rem;
 }
 
 h2 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   color: #cc1465;
   font-size: 1.875rem;
 }
@@ -33,7 +33,7 @@ h2 {
 .navigation a {
   color: #fff;
   display: inline-block;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
@@ -65,7 +65,7 @@ img {
 }
 
 main {
-  padding:.75em;
+  padding: .75em;
 }
 
 p {
