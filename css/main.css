@@ -1,10 +1,15 @@
 html {
-line-height: 1.5;
-font: normal 100%/1.5 Georgia,serif;
+ box-sizing: border-box;
+ font: normal 100%/1.5 Georgia,serif;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 header {
-background-color: #ffe500;
+ background-color: #ffe500;
 }
 
 body {
@@ -22,7 +27,7 @@ h1 {
 h2 {
   font-family: 'Sigmar One', cursive;
   color: #cc1465;
-  font-size: 1.875rem
+  font-size: 1.875rem;
 }
 
 .navigation a {
@@ -65,10 +70,6 @@ main {
 
 p {
   color: #2f2d13;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 footer {
